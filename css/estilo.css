@@ -255,3 +255,12 @@ body.carregando .carregador{display:flex}
   .body{grid-template-columns:1fr}
   .rep .nav{flex-direction:column}
 }
+
+/* ---------- Painel com foto ---------- */
+.ent-foto{position:relative;min-height:100%;background:#0d1114 url(../img/entrada-motor.jpg) 50% 40%/cover no-repeat;border-left:1px solid var(--line)}
+.ent-foto-sobre{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;gap:8px;padding:36px;background:linear-gradient(180deg,rgba(12,16,18,.05) 0%,rgba(12,16,18,.25) 45%,rgba(12,16,18,.9) 100%);color:#F2F5F6}
+.ent-frase{font-family:var(--f-display);font-weight:700;font-size:3rem;line-height:1;letter-spacing:.01em}
+.ent-frase em{font-style:normal;color:#6EC6E2}
+.ent-foto-sub{font-size:.95rem;color:#D3DCE0}
+.ent-credito{font-family:var(--f-mono);font-size:.7rem;color:#AAB6BC}
+@media (max-width:820px){.ent-foto-sobre{background:linear-gradient(180deg,rgba(12,16,18,.2) 0%,rgba(12,16,18,.55) 40%,rgba(12,16,18,.92) 100%)}.ent-foto{min-height:320px;border-left:0;border-bottom:1px solid var(--line);order:-1}.ent-frase{font-size:2.3rem}.ent-foto-sobre{padding:24px}}
