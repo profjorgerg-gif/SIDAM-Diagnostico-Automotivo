@@ -25,13 +25,13 @@ O sistema já funciona sem Firebase, em **modo local**: o diagnóstico, os relat
 
 ## Passo 2 – Ativar o login com Google
 
-1. No menu lateral: **Criação > Authentication > Vamos começar**.
+1. No menu lateral: **Segurança > Authentication > Vamos começar** (em versões antigas do console, fica em **Criação**).
 2. Aba **Método de login > Google > Ativar**, escolha o e-mail de suporte e salve.
 3. Aba **Configurações > Domínios autorizados > Adicionar domínio** e informe `SEU-USUARIO.github.io` (o seu usuário do GitHub).
 
 ## Passo 3 – Criar o banco de dados
 
-1. Menu **Criação > Firestore Database > Criar banco de dados**.
+1. Menu **Bancos de dados e armazenamento > Firestore > Criar banco de dados** (se pedir a edição, mantenha Standard).
 2. Local: `southamerica-east1 (São Paulo)`. Comece no **modo de produção**.
 3. Aba **Regras**: apague o conteúdo, cole todo o conteúdo do arquivo `firestore.rules` e clique em **Publicar**.
 4. Aba **Dados**: crie o cadastro de administradores.

@@ -1,11 +1,13 @@
-// Cole aqui a configuração do seu projeto Firebase
-// (Console do Firebase > Configurações do projeto > Seus apps > Configuração do SDK).
-// Enquanto estiver com "COLE_AQUI", o SIDAM funciona em modo local, sem login.
+// Configuração do projeto Firebase "sidam-diagnostico"
+// (Console do Firebase > Configurações do projeto > Seus apps > sidam-web).
+// Estes valores identificam o projeto e não são senhas: a proteção dos dados
+// é feita pelas regras de segurança do Firestore (arquivo firestore.rules).
 export const firebaseConfig = {
-  apiKey: "COLE_AQUI",
-  authDomain: "COLE_AQUI",
-  projectId: "COLE_AQUI",
-  storageBucket: "COLE_AQUI",
-  messagingSenderId: "COLE_AQUI",
-  appId: "COLE_AQUI"
+  apiKey: "AIzaSyAo_0xWYv6qGvxSaCHzuIFfbWctJEbvzMI",
+  authDomain: "sidam-diagnostico.firebaseapp.com",
+  projectId: "sidam-diagnostico",
+  storageBucket: "sidam-diagnostico.firebasestorage.app",
+  messagingSenderId: "1069946458161",
+  appId: "1:1069946458161:web:e3668fd71ba9577814c510",
+  measurementId: "G-524W5ME3J2"
 };
