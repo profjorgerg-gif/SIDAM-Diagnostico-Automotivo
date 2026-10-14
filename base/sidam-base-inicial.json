@@ -1,0 +1,2703 @@
+{
+  "versao": "1.0",
+  "sintomas": [
+    {
+      "id": "SIN-001",
+      "nome": "Motor não gira ao dar partida",
+      "categoria": "Partida",
+      "descricao": "Ao girar a chave ou apertar o botão, o motor não gira",
+      "critico": false,
+      "causas": [
+        {
+          "causaId": "CAU-001",
+          "peso": 0.45
+        },
+        {
+          "causaId": "CAU-002",
+          "peso": 0.3
+        },
+        {
+          "causaId": "CAU-003",
+          "peso": 0.25
+        }
+      ],
+      "perguntas": [
+        "PER-001",
+        "PER-002"
+      ]
+    },
+    {
+      "id": "SIN-002",
+      "nome": "Motor gira mas não pega",
+      "categoria": "Partida",
+      "descricao": "O motor de partida funciona, mas o motor não entra em funcionamento",
+      "critico": false,
+      "causas": [
+        {
+          "causaId": "CAU-004",
+          "peso": 0.25
+        },
+        {
+          "causaId": "CAU-006",
+          "peso": 0.15
+        },
+        {
+          "causaId": "CAU-008",
+          "peso": 0.15
+        },
+        {
+          "causaId": "CAU-009",
+          "peso": 0.15
+        },
+        {
+          "causaId": "CAU-005",
+          "peso": 0.1
+        },
+        {
+          "causaId": "CAU-042",
+          "peso": 0.1
+        },
+        {
+          "causaId": "CAU-024",
+          "peso": 0.1
+        }
+      ],
+      "perguntas": [
+        "PER-003",
+        "PER-004",
+        "PER-005"
+      ]
+    },
+    {
+      "id": "SIN-003",
+      "nome": "Partida difícil com o motor frio",
+      "categoria": "Partida",
+      "descricao": "O motor demora a pegar pela manhã ou após longo tempo parado",
+      "critico": false,
+      "causas": [
+        {
+          "causaId": "CAU-010",
+          "peso": 0.3
+        },
+        {
+          "causaId": "CAU-011",
+          "peso": 0.2
+        },
+        {
+          "causaId": "CAU-007",
+          "peso": 0.2
+        },
+        {
+          "causaId": "CAU-012",
+          "peso": 0.15
+        },
+        {
+          "causaId": "CAU-013",
+          "peso": 0.15
+        }
+      ],
+      "perguntas": [
+        "PER-006"
+      ]
+    },
+    {
+      "id": "SIN-004",
+      "nome": "Marcha lenta irregular",
+      "categoria": "Marcha lenta",
+      "descricao": "Rotação oscilando ou motor trepidando parado",
+      "critico": false,
+      "causas": [
+        {
+          "causaId": "CAU-014",
+          "peso": 0.3
+        },
+        {
+          "causaId": "CAU-015",
+          "peso": 0.25
+        },
+        {
+          "causaId": "CAU-007",
+          "peso": 0.15
+        },
+        {
+          "causaId": "CAU-013",
+          "peso": 0.15
+        },
+        {
+          "causaId": "CAU-016",
+          "peso": 0.15
+        }
+      ],
+      "perguntas": [
+        "PER-007",
+        "PER-008"
+      ]
+    },
+    {
+      "id": "SIN-005",
+      "nome": "Motor morre em marcha lenta",
+      "categoria": "Marcha lenta",
+      "descricao": "O motor apaga ao parar o carro ou tirar o pé do acelerador",
+      "critico": false,
+      "causas": [
+        {
+          "causaId": "CAU-014",
+          "peso": 0.4
+        },
+        {
+          "causaId": "CAU-015",
+          "peso": 0.25
+        },
+        {
+          "causaId": "CAU-004",
+          "peso": 0.15
+        },
+        {
+          "causaId": "CAU-012",
+          "peso": 0.1
+        },
+        {
+          "causaId": "CAU-040",
+          "peso": 0.1
+        }
+      ],
+      "perguntas": [
+        "PER-009"
+      ]
+    },
+    {
+      "id": "SIN-006",
+      "nome": "Perda de potência",
+      "categoria": "Desempenho",
+      "descricao": "O carro está fraco, sem força para acelerar ou subir",
+      "critico": false,
+      "causas": [
+        {
+          "causaId": "CAU-017",
+          "peso": 0.15
+        },
+        {
+          "causaId": "CAU-005",
+          "peso": 0.15
+        },
+        {
+          "causaId": "CAU-018",
+          "peso": 0.15
+        },
+        {
+          "causaId": "CAU-004",
+          "peso": 0.15
+        },
+        {
+          "causaId": "CAU-019",
+          "peso": 0.15
+        },
+        {
+          "causaId": "CAU-016",
+          "peso": 0.1
+        },
+        {
+          "causaId": "CAU-024",
+          "peso": 0.1
+        },
+        {
+          "causaId": "CAU-020",
+          "peso": 0.05
+        }
+      ],
+      "perguntas": [
+        "PER-010",
+        "PER-011",
+        "PER-012"
+      ]
+    },
+    {
+      "id": "SIN-007",
+      "nome": "Falhas ou engasgos na aceleração",
+      "categoria": "Desempenho",
+      "descricao": "O motor falha, engasga ou dá trancos ao acelerar",
+      "critico": false,
+      "causas": [
+        {
+          "causaId": "CAU-006",
+          "peso": 0.25
+        },
+        {
+          "causaId": "CAU-007",
+          "peso": 0.2
+        },
+        {
+          "causaId": "CAU-013",
+          "peso": 0.2
+        },
+        {
+          "causaId": "CAU-024",
+          "peso": 0.2
+        },
+        {
+          "causaId": "CAU-023",
+          "peso": 0.15
+        }
+      ],
+      "perguntas": [
+        "PER-013",
+        "PER-014"
+      ]
+    },
+    {
+      "id": "SIN-008",
+      "nome": "Vibração excessiva do motor",
+      "categoria": "Desempenho",
+      "descricao": "O motor treme além do normal, sentido no volante ou na cabine",
+      "critico": false,
+      "causas": [
+        {
+          "causaId": "CAU-025",
+          "peso": 0.35
+        },
+        {
+          "causaId": "CAU-006",
+          "peso": 0.25
+        },
+        {
+          "causaId": "CAU-007",
+          "peso": 0.2
+        },
+        {
+          "causaId": "CAU-013",
+          "peso": 0.2
+        }
+      ],
+      "perguntas": [
+        "PER-015",
+        "PER-016"
+      ]
+    },
+    {
+      "id": "SIN-009",
+      "nome": "Superaquecimento do motor",
+      "categoria": "Temperatura",
+      "descricao": "Ponteiro de temperatura alto ou luz de temperatura acesa",
+      "critico": true,
+      "causas": [
+        {
+          "causaId": "CAU-026",
+          "peso": 0.3
+        },
+        {
+          "causaId": "CAU-027",
+          "peso": 0.2
+        },
+        {
+          "causaId": "CAU-028",
+          "peso": 0.2
+        },
+        {
+          "causaId": "CAU-029",
+          "peso": 0.15
+        },
+        {
+          "causaId": "CAU-030",
+          "peso": 0.15
+        }
+      ],
+      "perguntas": [
+        "PER-017",
+        "PER-018",
+        "PER-019"
+      ]
+    },
+    {
+      "id": "SIN-010",
+      "nome": "Motor demora a aquecer",
+      "categoria": "Temperatura",
+      "descricao": "O ponteiro de temperatura não sobe ou demora muito a chegar ao meio",
+      "critico": false,
+      "causas": [
+        {
+          "causaId": "CAU-031",
+          "peso": 0.6
+        },
+        {
+          "causaId": "CAU-012",
+          "peso": 0.4
+        }
+      ],
+      "perguntas": [
+        "PER-020"
+      ]
+    },
+    {
+      "id": "SIN-011",
+      "nome": "Batida metálica grave no motor",
+      "categoria": "Ruídos",
+      "descricao": "Ruído metálico seco e grave que acompanha a rotação",
+      "critico": true,
+      "causas": [
+        {
+          "causaId": "CAU-032",
+          "peso": 0.55
+        },
+        {
+          "causaId": "CAU-033",
+          "peso": 0.3
+        },
+        {
+          "causaId": "CAU-034",
+          "peso": 0.15
+        }
+      ],
+      "perguntas": [
+        "PER-021"
+      ]
+    },
+    {
+      "id": "SIN-012",
+      "nome": "Chiado ou assobio ao ligar ou acelerar",
+      "categoria": "Ruídos",
+      "descricao": "Ruído agudo vindo da frente do motor",
+      "critico": false,
+      "causas": [
+        {
+          "causaId": "CAU-036",
+          "peso": 0.6
+        },
+        {
+          "causaId": "CAU-015",
+          "peso": 0.25
+        },
+        {
+          "causaId": "CAU-019",
+          "peso": 0.15
+        }
+      ],
+      "perguntas": [
+        "PER-022"
+      ]
+    },
+    {
+      "id": "SIN-013",
+      "nome": "Ruído de tec-tec no cabeçote",
+      "categoria": "Ruídos",
+      "descricao": "Batidas leves e rápidas vindas da parte de cima do motor",
+      "critico": false,
+      "causas": [
+        {
+          "causaId": "CAU-037",
+          "peso": 0.6
+        },
+        {
+          "causaId": "CAU-033",
+          "peso": 0.4
+        }
+      ],
+      "perguntas": [
+        "PER-023",
+        "PER-024"
+      ]
+    },
+    {
+      "id": "SIN-014",
+      "nome": "Batida de pino ao acelerar",
+      "categoria": "Ruídos",
+      "descricao": "Ruído metálico agudo, como grilos, ao acelerar com o motor em esforço",
+      "critico": false,
+      "causas": [
+        {
+          "causaId": "CAU-038",
+          "peso": 0.5
+        },
+        {
+          "causaId": "CAU-024",
+          "peso": 0.3
+        },
+        {
+          "causaId": "CAU-007",
+          "peso": 0.2
+        }
+      ],
+      "perguntas": [
+        "PER-025"
+      ]
+    },
+    {
+      "id": "SIN-015",
+      "nome": "Fumaça azul no escapamento",
+      "categoria": "Fumaça",
+      "descricao": "Fumaça azulada ou acinzentada com cheiro de óleo queimado",
+      "critico": false,
+      "causas": [
+        {
+          "causaId": "CAU-020",
+          "peso": 0.4
+        },
+        {
+          "causaId": "CAU-021",
+          "peso": 0.3
+        },
+        {
+          "causaId": "CAU-019",
+          "peso": 0.2
+        },
+        {
+          "causaId": "CAU-022",
+          "peso": 0.1
+        }
+      ],
+      "perguntas": [
+        "PER-026",
+        "PER-027",
+        "PER-028"
+      ]
+    },
+    {
+      "id": "SIN-016",
+      "nome": "Fumaça branca densa no escapamento",
+      "categoria": "Fumaça",
+      "descricao": "Fumaça branca e persistente, com cheiro adocicado. Vapor fino na partida a frio é normal",
+      "critico": false,
+      "causas": [
+        {
+          "causaId": "CAU-030",
+          "peso": 0.8
+        },
+        {
+          "causaId": "CAU-013",
+          "peso": 0.2
+        }
+      ],
+      "perguntas": [
+        "PER-029",
+        "PER-030"
+      ]
+    },
+    {
+      "id": "SIN-017",
+      "nome": "Fumaça preta no escapamento",
+      "categoria": "Fumaça",
+      "descricao": "Fumaça escura, sinal de excesso de combustível na queima",
+      "critico": false,
+      "causas": [
+        {
+          "causaId": "CAU-013",
+          "peso": 0.35
+        },
+        {
+          "causaId": "CAU-017",
+          "peso": 0.25
+        },
+        {
+          "causaId": "CAU-016",
+          "peso": 0.2
+        },
+        {
+          "causaId": "CAU-012",
+          "peso": 0.1
+        },
+        {
+          "causaId": "CAU-019",
+          "peso": 0.1
+        }
+      ],
+      "perguntas": [
+        "PER-031"
+      ]
+    },
+    {
+      "id": "SIN-018",
+      "nome": "Consumo excessivo de combustível",
+      "categoria": "Consumo",
+      "descricao": "O carro passou a fazer menos quilômetros por litro sem mudança no uso",
+      "critico": false,
+      "causas": [
+        {
+          "causaId": "CAU-016",
+          "peso": 0.25
+        },
+        {
+          "causaId": "CAU-013",
+          "peso": 0.2
+        },
+        {
+          "causaId": "CAU-012",
+          "peso": 0.15
+        },
+        {
+          "causaId": "CAU-017",
+          "peso": 0.15
+        },
+        {
+          "causaId": "CAU-024",
+          "peso": 0.15
+        },
+        {
+          "causaId": "CAU-007",
+          "peso": 0.1
+        }
+      ],
+      "perguntas": [
+        "PER-032"
+      ]
+    },
+    {
+      "id": "SIN-019",
+      "nome": "Consumo excessivo de óleo",
+      "categoria": "Consumo",
+      "descricao": "É preciso completar o óleo entre as trocas",
+      "critico": false,
+      "causas": [
+        {
+          "causaId": "CAU-020",
+          "peso": 0.3
+        },
+        {
+          "causaId": "CAU-039",
+          "peso": 0.25
+        },
+        {
+          "causaId": "CAU-021",
+          "peso": 0.2
+        },
+        {
+          "causaId": "CAU-019",
+          "peso": 0.15
+        },
+        {
+          "causaId": "CAU-022",
+          "peso": 0.1
+        }
+      ],
+      "perguntas": [
+        "PER-033",
+        "PER-034"
+      ]
+    },
+    {
+      "id": "SIN-020",
+      "nome": "Luz de injeção acesa",
+      "categoria": "Painel",
+      "descricao": "Luz do motor (check engine) acesa no painel. Recomenda-se leitura dos códigos OBD",
+      "critico": false,
+      "causas": [
+        {
+          "causaId": "CAU-016",
+          "peso": 0.25
+        },
+        {
+          "causaId": "CAU-006",
+          "peso": 0.2
+        },
+        {
+          "causaId": "CAU-040",
+          "peso": 0.15
+        },
+        {
+          "causaId": "CAU-018",
+          "peso": 0.15
+        },
+        {
+          "causaId": "CAU-012",
+          "peso": 0.15
+        },
+        {
+          "causaId": "CAU-007",
+          "peso": 0.1
+        }
+      ],
+      "perguntas": [
+        "PER-035"
+      ]
+    },
+    {
+      "id": "SIN-021",
+      "nome": "Luz de pressão do óleo acesa com o motor ligado",
+      "categoria": "Painel",
+      "descricao": "Luz do óleo (almotolia) acende com o motor em funcionamento",
+      "critico": true,
+      "causas": [
+        {
+          "causaId": "CAU-033",
+          "peso": 0.5
+        },
+        {
+          "causaId": "CAU-034",
+          "peso": 0.3
+        },
+        {
+          "causaId": "CAU-035",
+          "peso": 0.2
+        }
+      ],
+      "perguntas": [
+        "PER-036"
+      ]
+    },
+    {
+      "id": "SIN-022",
+      "nome": "Cheiro forte de combustível",
+      "categoria": "Vazamentos",
+      "descricao": "Cheiro de gasolina, etanol ou diesel no motor ou na cabine",
+      "critico": true,
+      "causas": [
+        {
+          "causaId": "CAU-041",
+          "peso": 0.8
+        },
+        {
+          "causaId": "CAU-013",
+          "peso": 0.2
+        }
+      ],
+      "perguntas": [
+        "PER-037"
+      ]
+    }
+  ],
+  "causas": [
+    {
+      "id": "CAU-001",
+      "nome": "Bateria descarregada ou no fim da vida útil",
+      "sistema": "Elétrico",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "media",
+      "pecas": [
+        "PEC-001"
+      ],
+      "testes": [
+        "Medir a tensão em repouso: abaixo de 12,4 V indica carga baixa",
+        "Teste de carga com equipamento específico"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Recarregar a bateria",
+          "complexidade": "baixa"
+        },
+        {
+          "descricao": "Substituir a bateria",
+          "complexidade": "baixa"
+        },
+        {
+          "descricao": "Verificar a carga do alternador",
+          "complexidade": "media"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-002",
+      "nome": "Motor de partida com defeito",
+      "sistema": "Elétrico",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "media",
+      "pecas": [
+        "PEC-002",
+        "PEC-003",
+        "PEC-004"
+      ],
+      "testes": [
+        "Verificar se há apenas um clique sem giro do motor",
+        "Medir a queda de tensão no motor de partida durante o acionamento"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Revisar o motor de partida",
+          "complexidade": "media"
+        },
+        {
+          "descricao": "Substituir o motor de partida",
+          "complexidade": "media"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-003",
+      "nome": "Terminais ou cabos da bateria oxidados ou frouxos",
+      "sistema": "Elétrico",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "baixa",
+      "pecas": [
+        "PEC-005",
+        "PEC-006"
+      ],
+      "testes": [
+        "Inspeção visual de oxidação e aperto",
+        "Medir a queda de tensão nos cabos"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Limpar e reapertar os terminais",
+          "complexidade": "baixa"
+        },
+        {
+          "descricao": "Substituir terminais ou cabos",
+          "complexidade": "baixa"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-004",
+      "nome": "Bomba de combustível fraca ou inoperante",
+      "sistema": "Alimentação",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "alta",
+      "pecas": [
+        "PEC-007",
+        "PEC-008",
+        "PEC-009"
+      ],
+      "testes": [
+        "Ouvir o acionamento da bomba ao ligar a chave",
+        "Medir a pressão e a vazão na linha de combustível"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir relé ou fusível da bomba",
+          "complexidade": "baixa"
+        },
+        {
+          "descricao": "Substituir a bomba de combustível",
+          "complexidade": "media"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-005",
+      "nome": "Filtro de combustível obstruído",
+      "sistema": "Alimentação",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "media",
+      "pecas": [
+        "PEC-009"
+      ],
+      "testes": [
+        "Verificar a quilometragem da última troca",
+        "Medir a pressão na linha antes e depois do filtro"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir o filtro de combustível",
+          "complexidade": "baixa"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-006",
+      "nome": "Bobina de ignição ou cabos de vela com defeito",
+      "sistema": "Ignição",
+      "combustiveis": [
+        "flex",
+        "gasolina"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "media",
+      "pecas": [
+        "PEC-010",
+        "PEC-011"
+      ],
+      "testes": [
+        "Teste de centelha",
+        "Medir a resistência da bobina e dos cabos",
+        "Trocar bobinas de posição e verificar se a falha acompanha"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir a bobina ou os cabos de vela",
+          "complexidade": "baixa"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-007",
+      "nome": "Velas de ignição desgastadas ou inadequadas",
+      "sistema": "Ignição",
+      "combustiveis": [
+        "flex",
+        "gasolina"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "baixa",
+      "pecas": [
+        "PEC-012"
+      ],
+      "testes": [
+        "Inspecionar eletrodos, coloração e folga",
+        "Conferir se o modelo é o especificado pelo fabricante"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir as velas conforme especificação",
+          "complexidade": "baixa"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-008",
+      "nome": "Sensor de rotação (CKP) com defeito",
+      "sistema": "Gerenciamento eletrônico",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "alta",
+      "pecas": [
+        "PEC-013"
+      ],
+      "testes": [
+        "Leitura OBD (código P0335 ou similares)",
+        "Verificar o sinal do sensor com multímetro ou osciloscópio"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir o sensor de rotação",
+          "complexidade": "baixa"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-009",
+      "nome": "Correia dentada rompida ou fora de ponto",
+      "sistema": "Sincronismo",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "critica",
+      "pecas": [
+        "PEC-014",
+        "PEC-015",
+        "PEC-016"
+      ],
+      "testes": [
+        "Verificar se o eixo comando gira durante a partida",
+        "Inspeção visual da correia"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir o kit de correia dentada",
+          "complexidade": "media"
+        },
+        {
+          "descricao": "Revisar válvulas e cabeçote se o motor for interferente",
+          "complexidade": "alta"
+        }
+      ],
+      "observacao": "Não insista na partida: pode agravar danos às válvulas"
+    },
+    {
+      "id": "CAU-010",
+      "nome": "Sistema de partida a frio inoperante",
+      "sistema": "Alimentação",
+      "combustiveis": [
+        "flex"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "baixa",
+      "pecas": [
+        "PEC-017",
+        "PEC-018",
+        "PEC-019"
+      ],
+      "testes": [
+        "Verificar se há gasolina no reservatório de partida a frio",
+        "Verificar o acionamento da bomba ou do aquecedor de bicos"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Abastecer ou limpar o reservatório",
+          "complexidade": "baixa"
+        },
+        {
+          "descricao": "Substituir bomba ou aquecedor",
+          "complexidade": "media"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-011",
+      "nome": "Velas aquecedoras com defeito",
+      "sistema": "Ignição",
+      "combustiveis": [
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "media",
+      "pecas": [
+        "PEC-020",
+        "PEC-021"
+      ],
+      "testes": [
+        "Medir a resistência das velas aquecedoras",
+        "Verificar o funcionamento do relé"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir as velas aquecedoras",
+          "complexidade": "baixa"
+        },
+        {
+          "descricao": "Substituir o relé",
+          "complexidade": "baixa"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-012",
+      "nome": "Sensor de temperatura do motor (ECT) com defeito",
+      "sistema": "Gerenciamento eletrônico",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "media",
+      "pecas": [
+        "PEC-022"
+      ],
+      "testes": [
+        "Comparar a leitura do scanner com a temperatura real do motor",
+        "Medir a resistência do sensor"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir o sensor de temperatura",
+          "complexidade": "baixa"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-013",
+      "nome": "Bicos injetores sujos, entupidos ou gotejando",
+      "sistema": "Alimentação",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "media",
+      "pecas": [
+        "PEC-023",
+        "PEC-024"
+      ],
+      "testes": [
+        "Teste de vazão e estanqueidade em bancada"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Limpeza dos bicos por ultrassom",
+          "complexidade": "baixa"
+        },
+        {
+          "descricao": "Substituir os bicos injetores",
+          "complexidade": "media"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-014",
+      "nome": "Corpo de borboleta sujo ou atuador de marcha lenta com defeito",
+      "sistema": "Admissão",
+      "combustiveis": [
+        "flex",
+        "gasolina"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "baixa",
+      "pecas": [
+        "PEC-025",
+        "PEC-026"
+      ],
+      "testes": [
+        "Inspecionar carbonização no corpo de borboleta",
+        "Verificar a posição do atuador pelo scanner"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Limpar e fazer a reaprendizagem da marcha lenta",
+          "complexidade": "baixa"
+        },
+        {
+          "descricao": "Substituir o corpo de borboleta ou o atuador",
+          "complexidade": "media"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-015",
+      "nome": "Entrada falsa de ar (vazamento de vácuo)",
+      "sistema": "Admissão",
+      "combustiveis": [
+        "flex",
+        "gasolina"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "media",
+      "pecas": [
+        "PEC-027",
+        "PEC-028"
+      ],
+      "testes": [
+        "Teste de fumaça na admissão",
+        "Aplicar spray nas junções e observar alteração da rotação"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir mangueira ou junta danificada",
+          "complexidade": "baixa"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-016",
+      "nome": "Sonda lambda com defeito",
+      "sistema": "Gerenciamento eletrônico",
+      "combustiveis": [
+        "flex",
+        "gasolina"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "media",
+      "pecas": [
+        "PEC-029"
+      ],
+      "testes": [
+        "Leitura OBD (códigos P0130 a P0141)",
+        "Verificar a oscilação do sinal pelo scanner"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir a sonda lambda",
+          "complexidade": "baixa"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-017",
+      "nome": "Filtro de ar obstruído",
+      "sistema": "Admissão",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "baixa",
+      "pecas": [
+        "PEC-030"
+      ],
+      "testes": [
+        "Inspeção visual do elemento filtrante"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir o filtro de ar",
+          "complexidade": "baixa"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-018",
+      "nome": "Catalisador entupido",
+      "sistema": "Escapamento",
+      "combustiveis": [
+        "flex",
+        "gasolina"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "alta",
+      "pecas": [
+        "PEC-031"
+      ],
+      "testes": [
+        "Medir a contrapressão do escapamento",
+        "Comparar a temperatura de entrada e saída",
+        "Leitura OBD (código P0420)"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir o catalisador",
+          "complexidade": "media"
+        },
+        {
+          "descricao": "Corrigir a causa original (falha de ignição ou queima de óleo)",
+          "complexidade": "media"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-019",
+      "nome": "Turbina com defeito ou vazamento de óleo",
+      "sistema": "Sobrealimentação",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": true,
+      "urgencia": "alta",
+      "pecas": [
+        "PEC-032",
+        "PEC-033",
+        "PEC-034"
+      ],
+      "testes": [
+        "Verificar folga no eixo da turbina",
+        "Verificar óleo na tubulação de admissão",
+        "Medir a pressão de sobrealimentação"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir mangueiras do intercooler",
+          "complexidade": "baixa"
+        },
+        {
+          "descricao": "Reparar ou substituir a turbina",
+          "complexidade": "alta"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-020",
+      "nome": "Anéis de segmento gastos",
+      "sistema": "Motor - conjunto móvel",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "media",
+      "pecas": [
+        "PEC-035",
+        "PEC-036",
+        "PEC-037"
+      ],
+      "testes": [
+        "Teste de compressão seco e úmido: se a compressão sobe com óleo no cilindro, os anéis estão comprometidos",
+        "Verificar o consumo de óleo entre trocas"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Retífica parcial com troca de anéis",
+          "complexidade": "alta"
+        },
+        {
+          "descricao": "Retífica completa, se houver desgaste nos cilindros",
+          "complexidade": "alta"
+        }
+      ],
+      "observacao": "Pode rodar até a oficina, monitorando o nível de óleo"
+    },
+    {
+      "id": "CAU-021",
+      "nome": "Retentores de válvula ressecados",
+      "sistema": "Motor - cabeçote",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "media",
+      "pecas": [
+        "PEC-038",
+        "PEC-039"
+      ],
+      "testes": [
+        "Observar fumaça na partida após o carro ficar parado e em desacelerações"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir os retentores de válvula",
+          "complexidade": "media"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-022",
+      "nome": "Ventilação do cárter (PCV) obstruída",
+      "sistema": "Motor - lubrificação",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "baixa",
+      "pecas": [
+        "PEC-040",
+        "PEC-041"
+      ],
+      "testes": [
+        "Inspecionar válvula e mangueiras",
+        "Verificar pressão excessiva no bocal de óleo com o motor ligado"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Limpar ou substituir a válvula PCV e mangueiras",
+          "complexidade": "baixa"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-023",
+      "nome": "Sensor de posição da borboleta ou do pedal com defeito",
+      "sistema": "Gerenciamento eletrônico",
+      "combustiveis": [
+        "flex",
+        "gasolina"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "media",
+      "pecas": [
+        "PEC-042",
+        "PEC-043"
+      ],
+      "testes": [
+        "Varredura do sinal do sensor pelo scanner"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir o sensor",
+          "complexidade": "baixa"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-024",
+      "nome": "Combustível adulterado ou de má qualidade",
+      "sistema": "Alimentação",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "media",
+      "pecas": [
+        "PEC-009"
+      ],
+      "testes": [
+        "Teste de proveta (teor de etanol na gasolina)",
+        "Verificar o histórico de abastecimento"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Drenar o tanque, trocar o filtro e reabastecer em posto confiável",
+          "complexidade": "media"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-025",
+      "nome": "Coxins do motor gastos",
+      "sistema": "Fixação do motor",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "baixa",
+      "pecas": [
+        "PEC-044",
+        "PEC-045"
+      ],
+      "testes": [
+        "Inspeção visual de trincas e ressecamento",
+        "Observar o movimento do motor ao engatar a marcha"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir os coxins",
+          "complexidade": "media"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-026",
+      "nome": "Nível baixo ou vazamento de líquido de arrefecimento",
+      "sistema": "Arrefecimento",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "critica",
+      "pecas": [
+        "PEC-046",
+        "PEC-047",
+        "PEC-048",
+        "PEC-049"
+      ],
+      "testes": [
+        "Verificar o nível com o motor frio",
+        "Teste de pressão do sistema de arrefecimento"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Corrigir o vazamento e completar com aditivo",
+          "complexidade": "media"
+        }
+      ],
+      "observacao": "Nunca abra o reservatório com o motor quente"
+    },
+    {
+      "id": "CAU-027",
+      "nome": "Válvula termostática travada fechada",
+      "sistema": "Arrefecimento",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "alta",
+      "pecas": [
+        "PEC-050",
+        "PEC-051"
+      ],
+      "testes": [
+        "Verificar se a mangueira superior do radiador não aquece com o motor quente"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir a válvula termostática",
+          "complexidade": "baixa"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-028",
+      "nome": "Eletroventilador não aciona",
+      "sistema": "Arrefecimento",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "alta",
+      "pecas": [
+        "PEC-052",
+        "PEC-053",
+        "PEC-054"
+      ],
+      "testes": [
+        "Observar se a ventoinha liga ao atingir a temperatura de trabalho",
+        "Testar o motor da ventoinha com alimentação direta"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir relé, fusível ou interruptor",
+          "complexidade": "baixa"
+        },
+        {
+          "descricao": "Substituir o eletroventilador",
+          "complexidade": "media"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-029",
+      "nome": "Bomba d'água com defeito",
+      "sistema": "Arrefecimento",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "alta",
+      "pecas": [
+        "PEC-016",
+        "PEC-014"
+      ],
+      "testes": [
+        "Verificar vazamento pelo furo de alívio",
+        "Verificar folga no eixo da bomba"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir a bomba d'água (normalmente junto com a correia)",
+          "complexidade": "media"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-030",
+      "nome": "Junta do cabeçote queimada",
+      "sistema": "Motor - cabeçote",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "critica",
+      "pecas": [
+        "PEC-055",
+        "PEC-056",
+        "PEC-057"
+      ],
+      "testes": [
+        "Teste de CO2 no reservatório de arrefecimento",
+        "Teste de compressão",
+        "Verificar óleo emulsionado (borra branca)"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir a junta e plainar o cabeçote",
+          "complexidade": "alta"
+        }
+      ],
+      "observacao": "Rodar com esse defeito pode comprometer o motor inteiro"
+    },
+    {
+      "id": "CAU-031",
+      "nome": "Válvula termostática travada aberta",
+      "sistema": "Arrefecimento",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "baixa",
+      "pecas": [
+        "PEC-050"
+      ],
+      "testes": [
+        "Verificar se a mangueira superior aquece logo após a partida"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir a válvula termostática",
+          "complexidade": "baixa"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-032",
+      "nome": "Bronzinas desgastadas ou folga na biela",
+      "sistema": "Motor - conjunto móvel",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "critica",
+      "pecas": [
+        "PEC-037",
+        "PEC-058",
+        "PEC-059"
+      ],
+      "testes": [
+        "Verificar se o ruído aumenta com a rotação",
+        "Medir a pressão do óleo com manômetro",
+        "Verificar limalha no óleo e no filtro"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Retífica do motor",
+          "complexidade": "alta"
+        }
+      ],
+      "observacao": "Desligue o motor imediatamente"
+    },
+    {
+      "id": "CAU-033",
+      "nome": "Nível ou pressão de óleo baixos",
+      "sistema": "Motor - lubrificação",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "critica",
+      "pecas": [
+        "PEC-060",
+        "PEC-061"
+      ],
+      "testes": [
+        "Verificar o nível na vareta",
+        "Medir a pressão com manômetro"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Completar ou trocar o óleo e investigar a causa da perda",
+          "complexidade": "baixa"
+        }
+      ],
+      "observacao": "Não rode com a luz de óleo acesa"
+    },
+    {
+      "id": "CAU-034",
+      "nome": "Bomba de óleo com defeito ou pescador obstruído",
+      "sistema": "Motor - lubrificação",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "critica",
+      "pecas": [
+        "PEC-059",
+        "PEC-062",
+        "PEC-063"
+      ],
+      "testes": [
+        "Medir a pressão do óleo com manômetro"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir a bomba de óleo e limpar o pescador",
+          "complexidade": "alta"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-035",
+      "nome": "Interruptor de pressão do óleo com defeito (falso alarme)",
+      "sistema": "Motor - lubrificação",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "media",
+      "pecas": [
+        "PEC-064"
+      ],
+      "testes": [
+        "Medir a pressão real com manômetro antes de concluir"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir o interruptor de pressão",
+          "complexidade": "baixa"
+        }
+      ],
+      "observacao": "Só considere esta causa depois de confirmar a pressão real com manômetro"
+    },
+    {
+      "id": "CAU-036",
+      "nome": "Correia de acessórios gasta ou frouxa",
+      "sistema": "Acessórios",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "baixa",
+      "pecas": [
+        "PEC-065",
+        "PEC-066",
+        "PEC-067"
+      ],
+      "testes": [
+        "Inspecionar trincas e brilho na correia",
+        "Verificar a tensão e o tensor"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir a correia ou o tensor",
+          "complexidade": "baixa"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-037",
+      "nome": "Tuchos hidráulicos com defeito",
+      "sistema": "Motor - cabeçote",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "media",
+      "pecas": [
+        "PEC-068",
+        "PEC-060"
+      ],
+      "testes": [
+        "Verificar se o ruído diminui com o motor aquecido",
+        "Conferir viscosidade e prazo do óleo"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Trocar o óleo pelo especificado",
+          "complexidade": "baixa"
+        },
+        {
+          "descricao": "Substituir os tuchos",
+          "complexidade": "media"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-038",
+      "nome": "Detonação por combustível inadequado ou carbonização",
+      "sistema": "Combustão",
+      "combustiveis": [
+        "flex",
+        "gasolina"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "media",
+      "pecas": [
+        "PEC-069",
+        "PEC-012"
+      ],
+      "testes": [
+        "Leitura OBD (código P0325)",
+        "Inspecionar carbonização na câmara de combustão"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Usar o combustível adequado",
+          "complexidade": "baixa"
+        },
+        {
+          "descricao": "Descarbonizar o motor",
+          "complexidade": "media"
+        },
+        {
+          "descricao": "Substituir o sensor de detonação",
+          "complexidade": "baixa"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-039",
+      "nome": "Vazamentos externos de óleo (juntas e retentores)",
+      "sistema": "Motor - lubrificação",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "media",
+      "pecas": [
+        "PEC-039",
+        "PEC-063",
+        "PEC-070"
+      ],
+      "testes": [
+        "Inspeção visual do motor por baixo e por cima",
+        "Aplicar contraste UV no óleo para localizar o ponto"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir as juntas ou retentores com vazamento",
+          "complexidade": "media"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-040",
+      "nome": "Sensor MAP ou MAF com defeito",
+      "sistema": "Gerenciamento eletrônico",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "media",
+      "pecas": [
+        "PEC-071",
+        "PEC-072"
+      ],
+      "testes": [
+        "Leitura OBD",
+        "Comparar a leitura com os valores de referência"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Limpar o sensor MAF",
+          "complexidade": "baixa"
+        },
+        {
+          "descricao": "Substituir o sensor",
+          "complexidade": "baixa"
+        }
+      ],
+      "observacao": ""
+    },
+    {
+      "id": "CAU-041",
+      "nome": "Vazamento na linha de combustível ou nos bicos",
+      "sistema": "Alimentação",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "critica",
+      "pecas": [
+        "PEC-073",
+        "PEC-024",
+        "PEC-074"
+      ],
+      "testes": [
+        "Inspeção visual com o motor desligado e frio"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Substituir o componente com vazamento imediatamente",
+          "complexidade": "media"
+        }
+      ],
+      "observacao": "Risco de incêndio: não ligue o motor"
+    },
+    {
+      "id": "CAU-042",
+      "nome": "Imobilizador não reconhece a chave",
+      "sistema": "Elétrico",
+      "combustiveis": [
+        "flex",
+        "gasolina",
+        "diesel"
+      ],
+      "somenteTurbo": false,
+      "urgencia": "media",
+      "pecas": [
+        "PEC-075",
+        "PEC-076"
+      ],
+      "testes": [
+        "Verificar se a luz do imobilizador pisca",
+        "Tentar a partida com a chave reserva"
+      ],
+      "solucoes": [
+        {
+          "descricao": "Reprogramar ou substituir a chave",
+          "complexidade": "media"
+        }
+      ],
+      "observacao": ""
+    }
+  ],
+  "pecas": [
+    {
+      "id": "PEC-001",
+      "nome": "Bateria"
+    },
+    {
+      "id": "PEC-002",
+      "nome": "Motor de partida"
+    },
+    {
+      "id": "PEC-003",
+      "nome": "Bendix"
+    },
+    {
+      "id": "PEC-004",
+      "nome": "Automático do motor de partida"
+    },
+    {
+      "id": "PEC-005",
+      "nome": "Terminais da bateria"
+    },
+    {
+      "id": "PEC-006",
+      "nome": "Cabo terra"
+    },
+    {
+      "id": "PEC-007",
+      "nome": "Bomba de combustível"
+    },
+    {
+      "id": "PEC-008",
+      "nome": "Relé da bomba de combustível"
+    },
+    {
+      "id": "PEC-009",
+      "nome": "Filtro de combustível"
+    },
+    {
+      "id": "PEC-010",
+      "nome": "Bobina de ignição"
+    },
+    {
+      "id": "PEC-011",
+      "nome": "Cabos de vela"
+    },
+    {
+      "id": "PEC-012",
+      "nome": "Velas de ignição"
+    },
+    {
+      "id": "PEC-013",
+      "nome": "Sensor de rotação"
+    },
+    {
+      "id": "PEC-014",
+      "nome": "Correia dentada"
+    },
+    {
+      "id": "PEC-015",
+      "nome": "Tensor da correia dentada"
+    },
+    {
+      "id": "PEC-016",
+      "nome": "Bomba d'água"
+    },
+    {
+      "id": "PEC-017",
+      "nome": "Reservatório de partida a frio"
+    },
+    {
+      "id": "PEC-018",
+      "nome": "Bomba de partida a frio"
+    },
+    {
+      "id": "PEC-019",
+      "nome": "Aquecedor de bicos"
+    },
+    {
+      "id": "PEC-020",
+      "nome": "Velas aquecedoras"
+    },
+    {
+      "id": "PEC-021",
+      "nome": "Relé das velas aquecedoras"
+    },
+    {
+      "id": "PEC-022",
+      "nome": "Sensor de temperatura do líquido de arrefecimento"
+    },
+    {
+      "id": "PEC-023",
+      "nome": "Bicos injetores"
+    },
+    {
+      "id": "PEC-024",
+      "nome": "Anéis de vedação dos bicos"
+    },
+    {
+      "id": "PEC-025",
+      "nome": "Corpo de borboleta (TBI)"
+    },
+    {
+      "id": "PEC-026",
+      "nome": "Atuador de marcha lenta"
+    },
+    {
+      "id": "PEC-027",
+      "nome": "Mangueiras de vácuo"
+    },
+    {
+      "id": "PEC-028",
+      "nome": "Junta do coletor de admissão"
+    },
+    {
+      "id": "PEC-029",
+      "nome": "Sonda lambda"
+    },
+    {
+      "id": "PEC-030",
+      "nome": "Filtro de ar"
+    },
+    {
+      "id": "PEC-031",
+      "nome": "Catalisador"
+    },
+    {
+      "id": "PEC-032",
+      "nome": "Turbocompressor"
+    },
+    {
+      "id": "PEC-033",
+      "nome": "Mangueiras do intercooler"
+    },
+    {
+      "id": "PEC-034",
+      "nome": "Válvula wastegate"
+    },
+    {
+      "id": "PEC-035",
+      "nome": "Jogo de anéis"
+    },
+    {
+      "id": "PEC-036",
+      "nome": "Juntas do motor"
+    },
+    {
+      "id": "PEC-037",
+      "nome": "Bronzinas de biela"
+    },
+    {
+      "id": "PEC-038",
+      "nome": "Retentores de válvula"
+    },
+    {
+      "id": "PEC-039",
+      "nome": "Junta da tampa de válvulas"
+    },
+    {
+      "id": "PEC-040",
+      "nome": "Válvula PCV"
+    },
+    {
+      "id": "PEC-041",
+      "nome": "Mangueira de respiro do cárter"
+    },
+    {
+      "id": "PEC-042",
+      "nome": "Sensor TPS"
+    },
+    {
+      "id": "PEC-043",
+      "nome": "Sensor do pedal do acelerador"
+    },
+    {
+      "id": "PEC-044",
+      "nome": "Coxins do motor"
+    },
+    {
+      "id": "PEC-045",
+      "nome": "Coxim do câmbio"
+    },
+    {
+      "id": "PEC-046",
+      "nome": "Mangueiras do radiador"
+    },
+    {
+      "id": "PEC-047",
+      "nome": "Radiador"
+    },
+    {
+      "id": "PEC-048",
+      "nome": "Tampa do reservatório"
+    },
+    {
+      "id": "PEC-049",
+      "nome": "Aditivo de arrefecimento"
+    },
+    {
+      "id": "PEC-050",
+      "nome": "Válvula termostática"
+    },
+    {
+      "id": "PEC-051",
+      "nome": "Junta da carcaça da válvula"
+    },
+    {
+      "id": "PEC-052",
+      "nome": "Eletroventilador"
+    },
+    {
+      "id": "PEC-053",
+      "nome": "Relé do eletroventilador"
+    },
+    {
+      "id": "PEC-054",
+      "nome": "Interruptor térmico"
+    },
+    {
+      "id": "PEC-055",
+      "nome": "Junta do cabeçote"
+    },
+    {
+      "id": "PEC-056",
+      "nome": "Parafusos do cabeçote"
+    },
+    {
+      "id": "PEC-057",
+      "nome": "Cabeçote"
+    },
+    {
+      "id": "PEC-058",
+      "nome": "Bronzinas de mancal"
+    },
+    {
+      "id": "PEC-059",
+      "nome": "Bomba de óleo"
+    },
+    {
+      "id": "PEC-060",
+      "nome": "Óleo do motor"
+    },
+    {
+      "id": "PEC-061",
+      "nome": "Filtro de óleo"
+    },
+    {
+      "id": "PEC-062",
+      "nome": "Pescador de óleo"
+    },
+    {
+      "id": "PEC-063",
+      "nome": "Junta do cárter"
+    },
+    {
+      "id": "PEC-064",
+      "nome": "Interruptor de pressão do óleo"
+    },
+    {
+      "id": "PEC-065",
+      "nome": "Correia de acessórios"
+    },
+    {
+      "id": "PEC-066",
+      "nome": "Tensor automático"
+    },
+    {
+      "id": "PEC-067",
+      "nome": "Polias"
+    },
+    {
+      "id": "PEC-068",
+      "nome": "Tuchos hidráulicos"
+    },
+    {
+      "id": "PEC-069",
+      "nome": "Sensor de detonação"
+    },
+    {
+      "id": "PEC-070",
+      "nome": "Retentor do virabrequim"
+    },
+    {
+      "id": "PEC-071",
+      "nome": "Sensor MAP"
+    },
+    {
+      "id": "PEC-072",
+      "nome": "Sensor MAF"
+    },
+    {
+      "id": "PEC-073",
+      "nome": "Mangueiras de combustível"
+    },
+    {
+      "id": "PEC-074",
+      "nome": "Galeria de combustível"
+    },
+    {
+      "id": "PEC-075",
+      "nome": "Chave codificada"
+    },
+    {
+      "id": "PEC-076",
+      "nome": "Antena do imobilizador"
+    }
+  ],
+  "perguntas": [
+    {
+      "id": "PER-001",
+      "sintomaId": "SIN-001",
+      "texto": "Ouve-se apenas um clique ao tentar a partida?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-002",
+            "multiplicador": 1.6
+          },
+          {
+            "causaId": "CAU-001",
+            "multiplicador": 1.2
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-002",
+      "sintomaId": "SIN-001",
+      "texto": "As luzes do painel ficam fracas ou apagam ao tentar a partida?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-001",
+            "multiplicador": 1.8
+          },
+          {
+            "causaId": "CAU-003",
+            "multiplicador": 1.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-003",
+      "sintomaId": "SIN-002",
+      "texto": "Ao ligar a chave, ouve-se o zumbido da bomba de combustível por cerca de 2 segundos?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-004",
+            "multiplicador": 0.4
+          }
+        ],
+        "nao": [
+          {
+            "causaId": "CAU-004",
+            "multiplicador": 2.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-004",
+      "sintomaId": "SIN-002",
+      "texto": "O motor gira mais rápido ou com som diferente do normal na partida?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-009",
+            "multiplicador": 2.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-005",
+      "sintomaId": "SIN-002",
+      "texto": "A luz do imobilizador fica piscando no painel?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-042",
+            "multiplicador": 3.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-006",
+      "sintomaId": "SIN-003",
+      "texto": "O tanque está abastecido majoritariamente com etanol?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-010",
+            "multiplicador": 1.8
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-007",
+      "sintomaId": "SIN-004",
+      "texto": "A rotação sobe e desce sozinha?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-014",
+            "multiplicador": 1.5
+          },
+          {
+            "causaId": "CAU-015",
+            "multiplicador": 1.4
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-008",
+      "sintomaId": "SIN-004",
+      "texto": "Ouve-se um assobio na região do coletor de admissão?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-015",
+            "multiplicador": 2.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-009",
+      "sintomaId": "SIN-005",
+      "texto": "O motor morre principalmente ao ligar o ar-condicionado ou parar no semáforo?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-014",
+            "multiplicador": 1.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-010",
+      "sintomaId": "SIN-006",
+      "texto": "A perda é maior em subidas ou com o carro carregado?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-004",
+            "multiplicador": 1.3
+          },
+          {
+            "causaId": "CAU-005",
+            "multiplicador": 1.3
+          },
+          {
+            "causaId": "CAU-018",
+            "multiplicador": 1.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-011",
+      "sintomaId": "SIN-006",
+      "texto": "O escapamento tem pouca força e cheiro de enxofre?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-018",
+            "multiplicador": 2.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-012",
+      "sintomaId": "SIN-006",
+      "texto": "A perda de força vem junto com um assobio forte ao acelerar?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-019",
+            "multiplicador": 2.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-013",
+      "sintomaId": "SIN-007",
+      "texto": "A falha piora em dias de chuva ou com umidade?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-006",
+            "multiplicador": 1.8
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-014",
+      "sintomaId": "SIN-007",
+      "texto": "O problema começou logo após um abastecimento?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-024",
+            "multiplicador": 2.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-015",
+      "sintomaId": "SIN-008",
+      "texto": "A vibração aumenta muito ao engatar a marcha ou arrancar?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-025",
+            "multiplicador": 2.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-016",
+      "sintomaId": "SIN-008",
+      "texto": "A luz de injeção pisca no painel?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-006",
+            "multiplicador": 1.6
+          },
+          {
+            "causaId": "CAU-007",
+            "multiplicador": 1.4
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-017",
+      "sintomaId": "SIN-009",
+      "texto": "O superaquecimento ocorre principalmente no trânsito parado?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-028",
+            "multiplicador": 2.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-018",
+      "sintomaId": "SIN-009",
+      "texto": "O nível do reservatório está abaixo do mínimo (verificado com o motor frio)?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-026",
+            "multiplicador": 2.0
+          },
+          {
+            "causaId": "CAU-030",
+            "multiplicador": 1.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-019",
+      "sintomaId": "SIN-009",
+      "texto": "Aparecem bolhas no reservatório com o motor ligado?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-030",
+            "multiplicador": 2.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-020",
+      "sintomaId": "SIN-010",
+      "texto": "O ar quente do aquecedor demora ou não esquenta?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-031",
+            "multiplicador": 1.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-021",
+      "sintomaId": "SIN-011",
+      "texto": "A luz de óleo acende ou pisca junto com o ruído?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-033",
+            "multiplicador": 1.5
+          },
+          {
+            "causaId": "CAU-034",
+            "multiplicador": 1.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-022",
+      "sintomaId": "SIN-012",
+      "texto": "O chiado aumenta ao ligar o ar-condicionado ou virar o volante?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-036",
+            "multiplicador": 2.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-023",
+      "sintomaId": "SIN-013",
+      "texto": "O ruído diminui ou some depois que o motor aquece?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-037",
+            "multiplicador": 1.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-024",
+      "sintomaId": "SIN-013",
+      "texto": "A troca de óleo está atrasada?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-033",
+            "multiplicador": 1.6
+          },
+          {
+            "causaId": "CAU-037",
+            "multiplicador": 1.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-025",
+      "sintomaId": "SIN-014",
+      "texto": "Ocorre principalmente em subidas, com marcha alta e rotação baixa?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-038",
+            "multiplicador": 1.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-026",
+      "sintomaId": "SIN-015",
+      "texto": "A fumaça aparece mais na partida a frio ou depois de o carro ficar parado?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-021",
+            "multiplicador": 1.8
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-027",
+      "sintomaId": "SIN-015",
+      "texto": "A fumaça aumenta ao acelerar forte?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-020",
+            "multiplicador": 1.6
+          },
+          {
+            "causaId": "CAU-019",
+            "multiplicador": 1.4
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-028",
+      "sintomaId": "SIN-015",
+      "texto": "Há óleo na mangueira entre a turbina e o coletor de admissão?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-019",
+            "multiplicador": 2.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-029",
+      "sintomaId": "SIN-016",
+      "texto": "O nível do líquido de arrefecimento baixa sem vazamento visível?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-030",
+            "multiplicador": 2.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-030",
+      "sintomaId": "SIN-016",
+      "texto": "Há borra branca, como maionese, na tampa do óleo?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-030",
+            "multiplicador": 2.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-031",
+      "sintomaId": "SIN-017",
+      "texto": "A fumaça aparece principalmente ao acelerar forte?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-013",
+            "multiplicador": 1.3
+          },
+          {
+            "causaId": "CAU-019",
+            "multiplicador": 1.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-032",
+      "sintomaId": "SIN-018",
+      "texto": "A luz de injeção está acesa?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-016",
+            "multiplicador": 1.5
+          },
+          {
+            "causaId": "CAU-012",
+            "multiplicador": 1.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-033",
+      "sintomaId": "SIN-019",
+      "texto": "Há manchas de óleo no chão onde o carro fica estacionado?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-039",
+            "multiplicador": 2.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-034",
+      "sintomaId": "SIN-019",
+      "texto": "Há fumaça azul no escapamento?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-020",
+            "multiplicador": 1.5
+          },
+          {
+            "causaId": "CAU-021",
+            "multiplicador": 1.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-035",
+      "sintomaId": "SIN-020",
+      "texto": "A luz pisca em vez de ficar fixa?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-006",
+            "multiplicador": 2.0
+          },
+          {
+            "causaId": "CAU-007",
+            "multiplicador": 1.8
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-036",
+      "sintomaId": "SIN-021",
+      "texto": "O nível na vareta está abaixo do mínimo?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-033",
+            "multiplicador": 2.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "PER-037",
+      "sintomaId": "SIN-022",
+      "texto": "Há gotejamento ou umidade visível no motor ou embaixo do carro?",
+      "efeitos": {
+        "sim": [
+          {
+            "causaId": "CAU-041",
+            "multiplicador": 1.5
+          }
+        ]
+      }
+    }
+  ]
+}

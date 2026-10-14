@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SIDAM – Diagnóstico Automotivo de Motores</title>
+<meta name="description" content="SIDAM – Sistema Inteligente de Diagnóstico Automotivo de Motores: identifica causas prováveis a partir dos sintomas do motor.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230F5E78'/%3E%3Ctext x='32' y='42' font-family='Arial' font-weight='bold' font-size='26' fill='white' text-anchor='middle'%3ESD%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/estilo.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand"><b>SIDAM</b><span>Sistema Inteligente de Diagnóstico Automotivo de Motores</span></div>
+    <div class="hright">
+      <nav class="tabs" aria-label="Seções"><button type="button" data-v="diag" aria-pressed="true">Diagnóstico</button><button type="button" data-v="hist" aria-pressed="false">Histórico <span class="n" id="hcount"></span></button><button type="button" data-v="admin" id="tab-admin" aria-pressed="false" hidden>Administração</button></nav>
+      <div class="auth" id="auth"></div>
+      <div class="ver">VERSÃO 1.0</div>
+    </div>
+  </header>
+
+  <ol class="steps" id="steps" aria-label="Etapas do diagnóstico">
+    <li><em>1</em><span>Veículo</span></li>
+    <li><em>2</em><span>Sintomas</span></li>
+    <li><em>3</em><span>Perguntas</span></li>
+    <li><em>4</em><span>Resultado</span></li>
+  </ol>
+
+  <main id="view"></main>
+</div>
+<noscript><p style="padding:16px">O SIDAM precisa de JavaScript ativado no navegador.</p></noscript>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
