@@ -11,8 +11,46 @@
 <link rel="stylesheet" href="css/estilo.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 </head>
-<body>
-<div class="wrap">
+<body class="carregando">
+<section class="entrada" id="entrada" hidden aria-labelledby="ent-titulo">
+  <div class="ent-card">
+    <div class="ent-esq">
+      <span class="ent-tag">DIAGNÓSTICO AUTOMOTIVO</span>
+      <h1 id="ent-titulo" class="ent-logo">SIDAM</h1>
+      <p class="ent-nome">Sistema Inteligente de Diagnóstico Automotivo de Motores</p>
+      <p class="ent-desc">Informe os sintomas do motor e receba as causas mais prováveis, as peças envolvidas, os testes de confirmação e as soluções recomendadas.</p>
+      <ul class="ent-lista">
+        <li><b>Diagnóstico por sintomas</b><span>Ranking de causas por probabilidade, ajustado ao tipo de motor</span></li>
+        <li><b>Alertas de segurança</b><span>Aviso imediato para sintomas que exigem parar o veículo</span></li>
+        <li><b>Relatórios e histórico</b><span>PDF para imprimir e diagnósticos salvos na sua conta</span></li>
+      </ul>
+      <button type="button" class="ent-google" id="ent-google">
+        <svg width="20" height="20" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>
+        <span>Entrar com Google</span>
+      </button>
+      <p class="ent-msg" id="ent-msg" role="status" aria-live="polite"></p>
+      <p class="ent-nota">O diagnóstico é uma estimativa de probabilidade e não substitui a inspeção de um mecânico qualificado.</p>
+    </div>
+    <div class="ent-dir" aria-hidden="true">
+      <span class="ent-dir-tit">DO SINTOMA À SOLUÇÃO</span>
+      <ol class="ent-fluxo">
+        <li><em>01</em><div><b>Veículo</b><span>Flex, gasolina ou diesel · turbo</span></div></li>
+        <li><em>02</em><div><b>Sintomas</b><span>22 sintomas em 9 categorias</span></div></li>
+        <li><em>03</em><div><b>Perguntas</b><span>Refinam o resultado</span></div></li>
+        <li><em>04</em><div><b>Resultado</b><span>Causas, peças, testes e soluções</span></div></li>
+      </ol>
+      <div class="ent-exemplo">
+        <span class="ent-ex-tit">Exemplo · Fumaça azul, motor flex</span>
+        <div class="ent-barra"><span>Retentores de válvula</span><i style="--p:52%"></i><b>52%</b></div>
+        <div class="ent-barra"><span>Anéis de segmento</span><i style="--p:38%"></i><b>38%</b></div>
+        <div class="ent-barra"><span>Ventilação do cárter</span><i style="--p:10%"></i><b>10%</b></div>
+      </div>
+    </div>
+  </div>
+  <p class="ent-rodape">SIDAM · versão 1.0</p>
+</section>
+<div class="carregador" id="carregador" role="status" aria-live="polite"><span></span>Carregando o SIDAM…</div>
+<div class="wrap" id="app">
   <header class="top">
     <div class="brand"><b>SIDAM</b><span>Sistema Inteligente de Diagnóstico Automotivo de Motores</span></div>
     <div class="hright">

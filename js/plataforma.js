@@ -27,10 +27,15 @@ function desenhaAuth(html, acao) {
 }
 
 let pronto;
+const corpo = document.body;
+function mostrarApp() { corpo.classList.remove("carregando", "deslogado"); const e = document.getElementById("entrada"); if (e) e.hidden = true; }
+function mostrarEntrada() { corpo.classList.remove("carregando"); corpo.classList.add("deslogado"); const e = document.getElementById("entrada"); if (e) e.hidden = false; }
+function msgEntrada(t) { const m = document.getElementById("ent-msg"); if (m) m.textContent = t; }
 window.SIDAM_PLATAFORMA = new Promise((r) => (pronto = r));
 
 if (!configurado) {
   desenhaAuth(`<span class="authinfo">Modo local</span>`);
+  mostrarApp();
   pronto();
 } else {
   try {
@@ -60,10 +65,23 @@ if (!configurado) {
     };
     providers.db = db;
 
+    const provedor = new A.GoogleAuthProvider();
+    provedor.setCustomParameters({ prompt: "select_account" });
+    try { await A.getRedirectResult(auth); } catch (e) { msgEntrada("Não foi possível concluir o login. Tente novamente."); }
     const entrar = async () => {
-      try { await A.signInWithPopup(auth, new A.GoogleAuthProvider()); location.reload(); }
-      catch (e) { if (e?.code !== "auth/popup-closed-by-user") alert("Não foi possível entrar com o Google. Verifique se o domínio do site está autorizado no Firebase."); }
+      const b = document.getElementById("ent-google");
+      if (b) b.disabled = true;
+      msgEntrada("");
+      try { await A.signInWithPopup(auth, provedor); location.reload(); }
+      catch (e) {
+        const c = e?.code || "";
+        if (c === "auth/popup-blocked" || c === "auth/operation-not-supported-in-this-environment") { await A.signInWithRedirect(auth, provedor); return; }
+        if (c === "auth/unauthorized-domain") msgEntrada("Este endereço não está autorizado no Firebase. Adicione o domínio em Authentication › Configurações › Domínios autorizados.");
+        else if (c !== "auth/popup-closed-by-user" && c !== "auth/cancelled-popup-request") msgEntrada("Não foi possível entrar com o Google. Verifique a conexão e tente novamente.");
+        if (b) b.disabled = false;
+      }
     };
+    document.getElementById("ent-google")?.addEventListener("click", entrar);
     const sair = async () => { await A.signOut(auth); location.reload(); };
 
     A.onAuthStateChanged(auth, async (u) => {
@@ -81,15 +99,18 @@ if (!configurado) {
           me: async () => ({ id: u.uid, name: u.displayName || "", email: u.email }),
         };
         desenhaAuth(`<span class="authinfo">${(u.displayName || u.email || "").replace(/[<>&"]/g, "")}${admin ? " · administrador" : ""}</span><button type="button" class="authbtn">Sair</button>`, sair);
+        mostrarApp();
       } else {
         providers.user = null;
-        desenhaAuth(`<button type="button" class="authbtn">Entrar com Google</button>`, entrar);
+        desenhaAuth("");
+        mostrarEntrada();
       }
       pronto();
     });
   } catch (e) {
     console.error("Firebase indisponível:", e);
     desenhaAuth(`<span class="authinfo">Modo local</span>`);
+    mostrarApp();
     pronto();
   }
 }
